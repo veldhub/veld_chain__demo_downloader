@@ -4,7 +4,7 @@ x-veld:
     topic: "demo"
 
 services:
-  veld_demo6_csv_bulk_download__extract:
+  veld_demo_11__invalid__out_file_and_csv:
     extends:
       file: ./code/veld_code__downloader/veld.yaml
       service: veld_downloader

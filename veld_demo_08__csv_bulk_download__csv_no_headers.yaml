@@ -4,7 +4,7 @@ x-veld:
     topic: "demo"
 
 services:
-  veld_demo08__csv_bulk_download__csv_no_headers:
+  veld_demo_08__csv_bulk_download__csv_no_headers:
     extends:
       file: ./code/veld_code__downloader/veld.yaml
       service: veld_downloader

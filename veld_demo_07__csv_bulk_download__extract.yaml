@@ -4,12 +4,14 @@ x-veld:
     topic: "demo"
 
 services:
-  veld_demo01__single_download:
+  veld_demo_07__csv_bulk_download__extract:
     extends:
       file: ./code/veld_code__downloader/veld.yaml
       service: veld_downloader
     volumes:
-      - ./data/demo_01/output/:/veld/output/
+      - ./data/demo_07/input/:/veld/input/
+      - ./data/demo_07/output/:/veld/output/
     environment:
-      url: https://www.gutenberg.org/cache/epub/52521/pg52521.txt
+      in_csv_file: goethe.csv
+      do_extract: true
 

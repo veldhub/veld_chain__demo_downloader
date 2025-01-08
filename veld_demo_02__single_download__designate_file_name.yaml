@@ -4,11 +4,13 @@ x-veld:
     topic: "demo"
 
 services:
-  veld_demo6_csv_bulk_download__extract:
+  veld_demo_02__single_download__designate_file_name:
     extends:
       file: ./code/veld_code__downloader/veld.yaml
       service: veld_downloader
+    volumes:
+      - ./data/demo_02/output/:/veld/output/
     environment:
       url: https://www.gutenberg.org/cache/epub/52521/pg52521.txt
-      in_csv_file: goethe.csv
+      out_file: Grimms_Fairy_Tales.txt
 

@@ -1,6 +1,7 @@
 x-veld:
   chain:
-    description: ""
+    description: "chain demonstrating download from a single url where a designated output file 
+      name is given, and it is an archive which will be automatically extracted."
     topic: "demo"
 
 services:

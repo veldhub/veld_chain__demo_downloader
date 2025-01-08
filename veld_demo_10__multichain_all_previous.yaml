@@ -1,6 +1,6 @@
 x-veld:
   chain:
-    description: ""
+    description: "multi chain consisting of each previously defined chain executed in parallel."
     topic: "demo"
 
 services:

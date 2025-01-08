@@ -1,6 +1,6 @@
 x-veld:
   chain:
-    description: ""
+    description: "chain demonstrating bulk download from a csv without any other configuration."
     topic: "demo"
 
 services:

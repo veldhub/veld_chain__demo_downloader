@@ -1,6 +1,7 @@
 x-veld:
   chain:
-    description: ""
+    description: "chain demonstrating bulk download from a csv in which each download link is an 
+      archive which will be automatically extracted."
     topic: "demo"
 
 services:

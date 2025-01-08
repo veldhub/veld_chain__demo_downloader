@@ -1,6 +1,7 @@
 x-veld:
   chain:
-    description: ""
+    description: "invalid chain demonstrating that giving `in_csv_file` and `url` at the same time 
+      is invalid, since `url` relates to single downloads only and not bulk downloads."
     topic: "demo"
 
 services:
@@ -9,6 +10,6 @@ services:
       file: ./code/veld_code__downloader/veld.yaml
       service: veld_downloader
     environment:
-      url: https://www.gutenberg.org/cache/epub/52521/pg52521.txt
       in_csv_file: goethe.csv
+      url: https://www.gutenberg.org/cache/epub/52521/pg52521.txt
 

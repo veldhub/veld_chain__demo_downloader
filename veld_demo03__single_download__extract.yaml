@@ -1,0 +1,16 @@
+x-veld:
+  chain:
+    description: ""
+    topic: "demo"
+
+services:
+  veld_demo03__single_download__extract:
+    extends:
+      file: ./code/veld_code__downloader/veld.yaml
+      service: veld_downloader
+    volumes:
+      - ./data/demo_03/output/:/veld/output/
+    environment:
+      url: https://www.gutenberg.org/cache/epub/52521/pg52521-h.zip
+      do_extract: true
+

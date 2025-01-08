@@ -1,0 +1,14 @@
+x-veld:
+  chain:
+    description: ""
+    topic: "demo"
+
+services:
+  veld_demo6_csv_bulk_download__extract:
+    extends:
+      file: ./code/veld_code__downloader/veld.yaml
+      service: veld_downloader
+    environment:
+      url: https://www.gutenberg.org/cache/epub/52521/pg52521.txt
+      in_csv_file: goethe.csv
+

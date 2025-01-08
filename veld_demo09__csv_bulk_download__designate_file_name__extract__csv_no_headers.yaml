@@ -1,0 +1,18 @@
+x-veld:
+  chain:
+    description: ""
+    topic: "demo"
+
+services:
+  veld_demo09__csv_bulk_download__designate_file_name__extract__csv_no_headers:
+    extends:
+      file: ./code/veld_code__downloader/veld.yaml
+      service: veld_downloader
+    volumes:
+      - ./data/demo_09/input/:/veld/input/
+      - ./data/demo_09/output/:/veld/output/
+    environment:
+      in_csv_file: goethe.csv
+      do_extract: true
+      csv_has_headers: false
+

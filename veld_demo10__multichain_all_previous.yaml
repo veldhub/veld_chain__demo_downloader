@@ -1,0 +1,52 @@
+x-veld:
+  chain:
+    description: ""
+    topic: "demo"
+
+services:
+
+  veld_demo01__single_download:
+    extends:
+      file: ./veld_demo01__single_download.yaml
+      service: veld_demo01__single_download
+
+  veld_demo02__single_download__designate_file_name:
+    extends:
+      file: ./veld_demo02__single_download__designate_file_name.yaml
+      service: veld_demo02__single_download__designate_file_name
+
+  veld_demo03__single_download__extract:
+    extends:
+      file: ./veld_demo03__single_download__extract.yaml
+      service: veld_demo03__single_download__extract
+
+  veld_demo04__single_download__designate_file_name__extract:
+    extends:
+      file: ./veld_demo04__single_download__designate_file_name__extract.yaml
+      service: veld_demo04__single_download__designate_file_name__extract
+
+  veld_demo05__csv_bulk_download:
+    extends:
+      file: ./veld_demo05__csv_bulk_download.yaml
+      service: veld_demo05__csv_bulk_download
+
+  veld_demo06__csv_bulk_download__designate_file_name:
+    extends:
+      file: ./veld_demo06__csv_bulk_download__designate_file_name.yaml
+      service: veld_demo06__csv_bulk_download__designate_file_name
+
+  veld_demo07__csv_bulk_download__extract:
+    extends:
+      file: ./veld_demo07__csv_bulk_download__extract.yaml
+      service: veld_demo07__csv_bulk_download__extract
+
+  veld_demo08__csv_bulk_download__csv_no_headers:
+    extends:
+      file: ./veld_demo08__csv_bulk_download__csv_no_headers.yaml
+      service: veld_demo08__csv_bulk_download__csv_no_headers
+
+  veld_demo09__csv_bulk_download__designate_file_name__extract__csv_no_headers:
+    extends:
+      file: ./veld_demo09__csv_bulk_download__designate_file_name__extract__csv_no_headers.yaml
+      service: veld_demo09__csv_bulk_download__designate_file_name__extract__csv_no_headers
+

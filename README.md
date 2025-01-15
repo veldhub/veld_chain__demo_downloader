@@ -1,8 +1,22 @@
 # veld_chain__demo_downloader
 
-This repo contains demo VELD chains for https://github.com/veldhub/veld_code__downloader .
+This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating demos of 
+https://github.com/veldhub/veld_code__downloader .
 
-See each veld yaml file for details. 
+## requirements
+
+- git
+- docker compose (note: older docker compose versions require running `docker-compose` instead of 
+  `docker compose`)
+
+Clone this repo with all its submodules
+```
+git clone --recurse-submodules https://github.com/veldhub/veld_chain__demo_downloader.git
+```
+
+## how to reproduce
+
+Open any veld yaml file for more information.
 
 Execute a chain with 
 ```

@@ -1,4 +1,4 @@
-# veld_chain__demo_downloader
+# ![veld chain](https://raw.githubusercontent.com/veldhub/.github/refs/heads/main/images/symbol_V_letter.png) veld_chain__demo_downloader
 
 This repo contains [chain velds](https://zenodo.org/records/13322913) encapsulating demos of 
 https://github.com/veldhub/veld_code__downloader .
